@@ -90,7 +90,7 @@ def gps_view(request):
 
     }
 
-    return render(request, 'gps.html', context=context)
+    return render(request, 'GPS.html', context=context)
 
 
 def taklif_view(request):
