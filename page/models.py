@@ -69,6 +69,7 @@ class Kompyuter(models.Model):
     opiratevka = models.TextField(max_length=500, null=True, blank=True)
     videokarta = models.TextField(max_length=500, null=True, blank=True)
     masul = models.TextField(max_length=500, null=True, blank=True)
+    foydalanuvchi = models.TextField(max_length=500, null=True, blank=True)
     tell = models.TextField(max_length=500, null=True, blank=True)
     xolat = models.TextField(max_length=500, null=True, blank=True)
     shartnoma = models.FileField(upload_to='shartnoma', null=True, blank=True)

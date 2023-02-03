@@ -101,3 +101,7 @@ def taklif_view(request):
     }
 
     return render(request, 'takliflar.html', context=context)
+
+
+def tuzulma_view(request):
+    return render(request, 'tuzulma.html')

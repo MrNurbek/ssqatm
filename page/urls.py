@@ -17,6 +17,7 @@ urlpatterns = [
                   path('kamera', views.kamera_view, name='kamera'),
                   path('gps', views.gps_view, name='gps'),
                   path('taklif', views.taklif_view, name='taklif'),
+                  path('tuzulma', views.tuzulma_view, name='tuzulma'),
 
 
               ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) + static(settings.STATIC_URL,
